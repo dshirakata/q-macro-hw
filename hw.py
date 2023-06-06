@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-
 # Load data
 pwt1001 = pd.read_stata('https://dataverse.nl/api/access/datafile/354098')
 
