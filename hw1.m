@@ -55,4 +55,4 @@ corryc = corrcoef(fxytilde(1:T),jpytilde(1:T)); corryc = corryc(1,2);
 
 disp(['Percent standard deviation of detrended log real GDP of France: ', num2str(fxysd),'.']); disp(' ')
 disp(['Percent standard deviation of detrended log real GDP of Japan: ', num2str(jpysd),'.']); disp(' ')
-disp(['Contemporaneous correlation between detrended log real GDP and PCE: ', num2str(corryc),'.']);
+disp(['Correlation between detrended log real GDP of France and Japan: ', num2str(corryc),'.']);
